@@ -1,38 +1,41 @@
 # Stageportfolio – Amine el Arras
 
 Welkom op mijn stageportfolio!  
-In deze repository vind je alle projecten die ik heb gemaakt tijdens mijn eerste leerjaar van de opleiding **Software Development** aan het **Koning Willem I College** in 's-Hertogenbosch.
+In deze repository vind je de projecten die ik heb gemaakt tijdens mijn eerste leerjaar van de opleiding **Software Development** aan het **Koning Willem I College**.
 
-## 🧠 Wat je hier vindt:
-Een verzameling van schoolprojecten waarin ik heb gewerkt met verschillende technieken zoals:
+## 🧰 Gebruikte technieken:
+- HTML
+- CSS
+- JavaScript
+- PHP
+- SQL
 
-- **HTML**
-- **CSS**
-- **JavaScript**
-- **PHP**
-- **SQL**
+## 📁 Projectoverzicht
 
-## 🗂️ Projectoverzicht
+### 🎵 HipHop_Website
+Een dynamische muziekwebsite waarin gebruikers content kunnen bekijken en beheren.  
+Gebouwd met HTML, CSS, PHP en een MySQL-database.
 
-### 📌 Project 1 – Rekenmachine (JavaScript)
-Een eenvoudige rekenmachine voor optellen, aftrekken, delen en vermenigvuldigen met behulp van HTML, CSS en JavaScript.
+### 🎮 Pokemon_website
+Een fanpagina voor Pokémon met een overzicht van karakters.  
+Gemaakt met HTML, CSS en JavaScript (inclusief interactieve elementen).
 
-### 📌 Project 2 – Inlogpagina (PHP + MySQL)
-Een veilige loginpagina met sessies en gebruikerscontrole, inclusief validatie en databaseverbinding.
+### 🦷 Website_tandarts
+Een informatieve website voor een tandartspraktijk.  
+Responsive design met HTML en CSS, en een contactformulier.
 
-### 📌 Project 3 – Mediaoverzicht (CRUD)
-Een project waarmee je media (zoals video's en afbeeldingen) kunt toevoegen, bewerken en verwijderen met PHP en SQL.
-
-*(Voeg hier meer projecten toe als je wil)*
+### 🙋‍♂️ mijn-portfolio
+Een persoonlijke portfolio-site met informatie over wie ik ben, wat ik doe, en welke projecten ik heb gemaakt.
 
 ## 👨‍💻 Over mij
 
 Mijn naam is **Amine el Arras**.  
-Ik ben leergierig, gemotiveerd en werk graag met code. Ik wil mezelf blijven ontwikkelen in webontwikkeling en backend-programmeren.
+Ik ben een eerstejaars student Software Development aan het Koning Willem I College. Ik werk graag aan websites en leer steeds meer over backend en frontend development.
 
-📧 E-mail: amine.elarras@edu-kw1c.nl
-📞 Telefoon: 0624086207
+📧 E-mail: Amine el Arras
+📞 Telefoon: 0624086207  
 
 ---
 
-Wil je direct kennismaken of meer weten over mijn projecten? Neem gerust contact met me op!
+Bedankt voor het bekijken van mijn portfolio!  
+Neem gerust contact met me op als je vragen hebt of interesse hebt in een samenwerking.
