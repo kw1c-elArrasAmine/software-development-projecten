@@ -1,0 +1,160 @@
+/* ===== ALGEMENE INSTELLINGEN ===== */
+body {
+    font-family: Arial, sans-serif; /* Basislettertype voor leesbaarheid */
+    height: 100vh;                  /* Volledige schermhoogte */
+    margin: 0;                      /* Geen standaard marge rond de pagina */
+}
+
+/* ===== NAVIGATIEBALK (NAVBAR) ===== */
+nav {
+    background-color: rgb(6, 0, 15); /* Donkere achtergrondkleur */
+    height: 100px;
+    display: flex;                   /* Flexbox om elementen netjes naast elkaar te plaatsen */
+    align-items: center;            /* Verticale uitlijning */
+    justify-content: space-between; /* Tussenruimte tussen logo en menu */
+    flex-wrap: wrap;                /* Op kleinere schermen wrappen */
+    padding: 0 20px;                /* Ruimte links en rechts binnen nav */
+}
+
+nav ul {
+    list-style: none;      /* Geen standaard bullets */
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;       /* Zorgt voor wrappen op kleinere schermen */
+}
+
+nav ul li {
+    margin-right: 30px;    /* Afstand tussen menu-items */
+    display: flex;
+    align-items: center;
+}
+
+nav ul li:last-child {
+    margin-right: 0;       /* Geen marge rechts bij laatste item */
+}
+
+nav ul li a {
+    text-decoration: none; /* Geen onderstreepte links */
+    color: white;          /* Witte tekstkleur */
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    color: deeppink;       /* Kleureffect bij hover */
+}
+
+/* ===== LOGO INSTELLINGEN ===== */
+.logo {
+    height: 80px;
+    width: 80px;
+}
+
+/* ===== MAIN (INHOUD) ===== */
+main {
+    min-height: 100vh;                         /* Pagina moet minstens het hele scherm vullen */
+    background-image: url('../images/hiphop.jpg'); /* Achtergrondafbeelding */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px 20px;
+}
+
+main h1 {
+    color: #020202;           /* Zwarte titeltekst */
+    text-align: center;
+    font-family: myFont;      /* Custom lettertype (Street.otf) */
+    margin: 0;
+    font-size: 2em;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #222;   /* Donkergrijze achtergrond */
+    color: #fff;              /* Witte tekst */
+    text-align: center;
+    padding: 40px 20px;       /* Extra ruimte binnen de footer */
+    font-size: 15px;
+    line-height: 1.8;         /* Regelafstand voor leesbaarheid */
+    margin-top: 50px;         /* Ruimte boven de footer */
+    border-top: 2px solid #444; /* Scheidingslijn bovenaan */
+}
+
+footer p {
+    margin-bottom: 10px; /* Ruimte onder paragraaf in footer */
+}
+
+footer a {
+    color: #66ccff;          /* Lichtblauwe links */
+    text-decoration: none;   /* Geen standaard onderstreping */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Onderstreping bij hover */
+}
+
+/* ===== RESPONSIVE DESIGN (TABLET EN KLEINER) ===== */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;   /* Menu onder elkaar */
+        height: auto;
+        align-items: flex-start;  /* Links uitgelijnd (eerste variant) */
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .logo {
+        height: 60px;
+        width: 60px;
+    }
+
+    main h1 {
+        font-size: 1.6em;
+    }
+}
+
+/* === EXTRA RESPONSIVE VARIANT: CENTREREN OP MOBIEL === */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        align-items: center;      /* Centreren van alle elementen */
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        display: inline-block;
+        width: auto;
+    }
+
+    .logo {
+        height: 60px;
+        width: 60px;
+        margin-bottom: 10px;
+    }
+
+    main h1 {
+        font-size: 1.6em;
+    }
+}

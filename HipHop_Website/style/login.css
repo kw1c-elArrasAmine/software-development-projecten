@@ -1,0 +1,53 @@
+form {
+    position: absolute; /* Absoluut gepositioneerd voor centrering */
+    top: 50%;           /* Verticaal midden */
+    left: 50%;          /* Horizontaal midden */
+    transform: translate(-50%, -50%); /* Exact centreren */
+    background-color: #1e1e1e; /* Donkere achtergrond */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Zachte schaduw */
+    width: 100%;
+    max-width: 400px; /* Max breedte */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Elementen onder elkaar */
+}
+
+label {
+    color: #f1f1f1; /* Lichtgrijze tekst */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2b2b2b; /* Iets lichtere donkergrijze achtergrond */
+    color: #fff;              /* Witte tekst */
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #aaa; /* Placeholder lichtgrijs */
+}
+
+button {
+    padding: 12px;
+    background-color: #3b82f6; /* Mooie blauwe kleur */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Soepele hover overgang */
+}
+
+button:hover {
+    background-color: #2563eb; /* Donkerder blauw bij hover */
+}
