@@ -1,0 +1,120 @@
+@font-face 
+{
+  font-family: poke;
+  src: url(../fonts/Pokemon\ Solid.ttf);
+}
+
+body
+{
+  background-image: url(../images/wallpaper.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: auto;
+  height: auto;
+}
+
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f9f2f2;
+  height: 100px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+  
+li
+{
+  float: left;
+}
+  
+li a 
+{
+  display: block;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  padding: 40px 40px;
+  text-decoration: none;
+}
+
+*
+{
+  margin: 0;
+}
+
+ul img
+{
+  width: 100px;
+  float: left;
+  height: auto;
+}
+
+.header
+{
+  display: grid;
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100%;
+}
+
+.h1
+{
+  display: grid;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  text-align: right;
+  font-family: poke;
+  color: yellow;
+  -webkit-text-stroke: 1px rgb(66, 103, 170);
+  font-size: 50px;
+}
+
+.phone
+{
+  display: grid;
+  grid-row-start: 3;
+  margin-left: 100px;
+  height: auto;
+  width: auto;
+}
+
+.h2
+{
+  display: grid;
+  grid-row-start: 4;
+  margin-left: 200px;
+  margin-top: 140px;
+}
+
+.mail
+{
+  display: grid;
+  grid-row-start: 3;
+  grid-column-start: 2;
+  width: 200px;
+  margin-left: 25px;
+  height: auto;
+}
+
+.email
+{
+  display: grid;
+  grid-row-start: 4;
+  grid-column-start: 2;
+  margin-left: 50px;
+  margin-top: 90px;
+}
+
+.telenmail
+{
+  text-decoration: underline;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}

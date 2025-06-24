@@ -1,0 +1,201 @@
+<!--
+Naam project: Praktijk Pokémon
+Namen auteurs: Amine, Abel en Jort
+Studentennummers: 374911, 382049, 505617
+Datum: 04-10-2024
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/infopagina.css">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <script src="../scripts/info.js" defer></script>
+    <title>infopagina</title>
+</head>
+<body>
+    
+    <div class="header">                                    
+        <ul>
+            <figure>
+                <img src="../images/Logo's/navi-balk-ball.png" alt="" class="logonav">
+                <figcaption></figcaption>
+            </figure>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="infopagina.html">Basisinformatie</a></li>
+            <li><a href="geschiedenis.html">Geschiedenis</a></li>
+            <li><a href="films_series.html">Films/Series</a></li>
+            <li><a href="contactpagina.html">Contact</a></li>
+        </ul>
+    </div>
+    
+    <div class="section">
+
+        <div id="hoofdregel">
+            <h2 class="titel">Welkom bij de infopagina van Pokémon!</h2>
+            <h2 class="titel">Op deze pagina kan je informatie vinden over Pokémons</h2>
+        </div>
+
+        <br>
+            <!-- een tabel waar alle info staat -->
+        <table id="tafelpokemon">
+            <figure>
+                <img src="../images/pika/filepika.png" alt="" class="imgtafel">
+                <figcaption></figcaption>
+            </figure>
+            <thead>
+                <tr>
+                    <th>Pokémon</th>
+                    <th>Catch rate (procent)</th>
+                    <th>Aanvalpunten</th>
+                    <th>Verdedigingspunten</th>
+                    <th>Snelheid</th>
+                    <th>Lengte (dm)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="../images/tableimg/pika.png" alt="Pikachu" width="50">
+                            <figcaption>Pikachu</figcaption>
+                        </figure>
+                    </td>
+                    <td>35,20</td>
+                    <td>55</td>
+                    <td>40</td>
+                    <td>90</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="../images/tableimg/Yveltal.png" alt="Yveltal" width="50">
+                            <figcaption>Yveltal</figcaption>
+                        </figure>
+                    </td>
+                    <td>11,90</td>
+                    <td>131</td>
+                    <td>95</td>
+                    <td>99</td>
+                    <td>58</td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="../images/tableimg/rattata.png" alt="Rattata" width="50">
+                            <figcaption>Rattata</figcaption>
+                        </figure>
+                    </td>
+                    <td>43,90</td>
+                    <td>56</td>
+                    <td>35</td>
+                    <td>72</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="../images/tableimg/Charizard.png" alt="Charizard" width="50">
+                            <figcaption>Charizard</figcaption>
+                        </figure>
+                    </td>
+                    <td>5,90</td>
+                    <td>84</td>
+                    <td>78</td>
+                    <td>100</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="../images/tableimg/onix.png" alt="Onix" width="50">
+                            <figcaption>Onix</figcaption>
+                        </figure>
+                    </td>
+                    <td>25,00</td>
+                    <td>45</td>
+                    <td>160</td>
+                    <td>70</td>
+                    <td>88</td>
+                </tr>
+            </tbody>
+        </table>
+      <!-- een div met 3 pokemons waarbij een bij is -->
+    <div id="info-pokm">
+
+        <div id="hallofffame">
+
+            <div class="pokemon-item">
+                <p>Giratina</p>
+                <figure>
+                    <img src="../images/hallofffame/gira.png" alt="" class="imghallof">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+
+            <div class="pokemon-item">
+                <p>Palkia</p>
+                <figure>
+                    <img src="../images/hallofffame/palkia.png" alt="" class="imghallof">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+
+            <div class="pokemon-item">
+                <p>Dialga</p>
+                <figure>
+                    <img src="../images/hallofffame/dialga.png" alt="" class="imghallof">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <button onclick="wiewint()" class="buttonpokem">Wie van deze Pokémon wint in een gevecht?</button>
+        </div>
+    </div>
+
+    <div class="tekstpokemon">
+        <figure>
+            <img src="../images/info/151.png" alt="" style="float: left; width: 250px;">
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="../images/info/150.png" alt="" style="float: right; width: 250px;">
+            <figcaption></figcaption>
+        </figure>
+        <h2 class="legendpok">De Legendarische Pokémons</h2>
+        <p class="legendp">De Pokémon van Mythe (Japans: 神話のポケモン mythische Pokémon), ook beschreven als mythische Pokémon (verschillend van de Mythische Pokémon), is een trio van Legendarische Pokémon dat bestaat uit Dialga, Palkia en Giratina. Ze staan ook bij fans bekend als het creatietrio, het goddelijke trio en het drakentrio. Ze zijn afkomstig uit andere dimensies, maar werden voor het eerst ontdekt in de Sinnoh-regio. Arceus was degene die het trio creëerde, samen met het Pokémon-universum.</p>
+        <h2 id="tekstfilmpje">Giratina wordt boos op Dialga en Palkia!</h2>
+        <!-- een iframe met een video vanuit youtube -->
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/sgQVuw9-XOs" frameborder="0" allowfullscreen></iframe>
+    </div>
+   
+    <!-- een div met de starters pokemons -->
+    <div id="info-pokm">
+        <div id="starter">
+            <figure>
+                <img src="../images/starters/starters.png" alt="" class="imgstarters">
+                <figcaption></figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div class="tekstpokemon">
+        <figure>
+            <img src="../images/Ash/ash1.png" alt="" id="imgash" >
+            <figcaption></figcaption>
+        </figure>
+        <h2 class="starterpok">Starter pokémon</h2>
+        <p class="legendp">Bulbasaur, Charmander, en Squirtle zijn de drie klassieke starter-Pokémon uit de eerste generatie van de Pokémon-games (Pokémon Red, Blue, Green en Yellow). Als speler krijg je in het begin van het spel de keuze om één van deze drie Pokémon te kiezen, en die keuze bepaalt vaak de moeilijkheidsgraad en het verloop van je avontuur in het spel. Elk van deze Pokémon behoort tot een ander type, wat invloed heeft op hun sterktes en zwaktes in gevechten.</p>
+    </div>
+      <!-- een div waarbij staat wat pokemon is  -->
+    <div class="watzijn">
+        <figure><figcaption><img src="../images/info/charizard.png" alt="" id="imgcharizard"  ></figure></figcaption>
+        <figure><figcaption><img src="../images/pokemoninfo/bidoof.png" alt="" id="imgbidoof"  ></figure></figcaption>
+        <h2 class="titelwatzijn">Wat zijn Pokémons</h2>
+        <p class="legendp">Pokémon zijn fictieve wezens uit een populaire mediafranchise die oorspronkelijk werd gemaakt door Satoshi Tajiri en Ken Sugimori en wordt beheerd door The Pokémon Company, een samenwerking tussen Nintendo, Game Freak en Creatures. De franchise begon in 1996 met de lancering van de eerste videospellen voor de Game Boy en is sindsdien uitgegroeid tot een wereldwijd fenomeen, met videospellen, anime, films, ruilkaarten, merchandise en meer.
+
+        Pokémon, wat staat voor "Pocket Monsters," zijn wezens met verschillende soorten, zoals water-, vuur- of gras-types, en ze hebben unieke vaardigheden en kenmerken. In de spellen kunnen spelers Pokémon vangen, trainen en laten vechten tegen andere Pokémon. Het doel is vaak om de beste trainer te worden, waarbij spelers hun vaardigheden en strategieën gebruiken om verschillende uitdagingen aan te gaan.
+                                    
+        De franchise promoot ook waarden zoals

@@ -1,0 +1,105 @@
+@font-face 
+{
+  font-family: pokemon;
+  src: url(../fonts/Pokemon\ Solid.ttf);
+}
+
+body
+{
+  background-image: url("../images/geschiedenis/mighty-pokemon-arceus-yycm5wtxwxsqt1g2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f9f2f2;
+  height: 100px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+  
+li
+{
+  float: left;
+}
+  
+li a 
+{
+  display: block;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  padding: 40px 40px;
+  text-decoration: none;
+}
+ 
+a:hover
+{
+  text-decoration: underline;
+}
+
+*
+{
+  margin: 0;
+}
+
+ul img
+{
+  height: auto;
+  width: 100px;
+  float: left;
+}
+
+.header
+{
+  display: grid;
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100%;
+}
+
+.context
+{
+  margin: 0 auto; 
+  background-color: rgb(60, 60, 58);
+  text-align: justify;
+  max-width: 800px;
+  padding: 10px; /* Optionele padding voor wat ruimte rondom de tekst */
+  margin-bottom: 15px;
+  font-size: 15px; 
+}
+
+.context h2
+{
+  font-family: pokemon;
+  -webkit-text-stroke: 1px rgb(66, 103, 170);
+}
+
+.context p
+{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.footer
+{
+  height: 200px;
+  background-color: black;
+  margin-top: 50px;
+  width: auto;
+}
+
+#hoofdregel
+{
+  text-align: center;
+  font-family: pokemon;
+  -webkit-text-stroke: 1px rgb(66, 103, 170);
+  color: yellow;
+  margin-top: 100px;
+}
