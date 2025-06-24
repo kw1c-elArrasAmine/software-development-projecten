@@ -1,0 +1,54 @@
+<!-- Naam: Amine el Arras -->
+<!-- Datum: 14-01-2025 -->
+<!-- Praktijkopdracht P2: Resultaten pagina -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/stylesheet.css">
+    <link rel="stylesheet" href="../style/stylesheet2.css">
+    <script src="../script/resultaten.js" defer></script>
+    <title>Resultaten</title>
+</head>
+<body onload="ShowTabel()">   
+    <header>
+        <ul>
+            <img src="../images/logo.jpg" alt="Logo van Amine el Arras" id="logo">
+            <li><a href="../index.html">Homepagina</a></li>
+            <li><a href="../pages/portifolio.html">Portfolio</a></li>
+            <li><a href="../pages/hobby.html">Hobby's</a></li>
+            <li><a href="resultaten.html">Resultaten</a></li>
+            <li><a href="../pages/ervaring.html">Ervaringen</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <h2>Mijn resultaten van periode 2</h2>
+        <div id="punten">
+            <!-- Lijsten voor vakken, huiswerk en projecten -->
+    <h2>Vakken</h2>
+    <ul id="vakkenLijst"></ul>
+
+    <h2>Huiswerk</h2>
+    <ul id="huiswerkLijst"></ul>
+
+    <h2>Projecten</h2>
+    <ul id="projectLijst"></ul>
+
+    <!-- Tabel voor het weergeven van gemiddelden -->
+    <h2>Gemiddelden</h2>
+    <ul id="gemiddeldeLijst"></ul>
+
+    <!-- Knoppen om de functies aan te roepen -->
+   
+    <button onclick="bereken()">Bereken Gemiddelden</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Amine el Arras | <a href="mailto:amine.elarras@edu-kw1c.nl">amine.elarras@edu-kw1c.nl</a></p>
+    </footer>
+</body>
+</html>

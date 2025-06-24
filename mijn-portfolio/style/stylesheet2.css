@@ -1,0 +1,292 @@
+/* Autheur: Amine el Arras
+     datum:21-1-2025
+      stylepagina voor syling elementen*/
+
+/* Opmaak voor index.html */
+
+iframe
+{
+    width: 250px; /* Stel de breedte van het iframe in */
+    height: 200px; /* Stel de hoogte van het iframe in */
+    border: 0; /* Verwijder de rand van het iframe */  
+    display: block; /* Standaard block-weergave */
+    margin-left: auto; /* Centreer horizontaal */
+    margin-right: auto;  
+}
+
+.introindex {
+    text-align: center; /* Centreer de tekst in het element */
+}
+
+.button {
+    display: inline-block; /* Zorg dat de knop inline is maar met block-eigenschappen */
+    padding: 10px 20px; /* Binnenruimte rondom de inhoud van de knop */
+    margin-bottom: 100px;
+    font-size: 16px; /* Tekstgrootte van de knop */
+    color: white; /* Tekstkleur van de knop */
+    background-color: #0e1e42; /* Primaire kleur voor de knop */
+    text-decoration: none; /* Verwijder onderstreping van de tekst */
+    border-radius: 5px; /* Maak de hoeken van de knop afgerond */
+    text-align: center; /* Centreer de tekst binnen de knop */
+   
+}
+
+.button:hover {
+    background-color: #0056b3; /* Donkere tint bij hover */
+}
+
+#tekstnl {
+    max-width: 600px; /* Maximale breedte van de tekstcontainer */
+    margin: 0 auto; /* Horizontaal centreren */
+    text-align: center; /* Centreer de tekst */
+    padding: 20px; /* Voeg ruimte rondom de tekst toe */
+}
+
+.imgindex {
+    display: block; /* Zorg dat de afbeelding als block wordt weergegeven */
+    margin: 10px auto; /* Centreer de afbeelding en voeg verticale ruimte toe */
+    width: 200px; /* Stel de breedte van de afbeelding in */
+    height: 200px; /* Stel de hoogte van de afbeelding in */
+    border-radius: 50%; /* Maak de afbeelding rond */
+}
+
+/* Opmaak voor ervaring.html */
+
+/* Begin: Stijl voor het submenu */
+.submenu ul {
+    display: none; /* Verbergen van het submenu standaard */
+    position: absolute;
+    background-color: #f1f1f1;
+    padding: 50px 40px;
+    border-radius: 5px;
+}
+
+.submenu:hover ul,
+.submenu .active + ul {
+    display: block; /* Toon submenu bij hover of als het actief is */
+}
+
+.submenu ul li {
+    list-style: none; /* Verwijder de standaard opsommingstekens */
+}
+
+.submenu ul li a {
+    text-decoration: none; /* Verwijder onderstreping van de links */
+   color: black; /* Tekstkleur van de links */  
+    padding: 8px 10px;
+    display: block; /* Zorg dat de links als blokken worden weergegeven */
+}
+
+.submenu ul li a:hover {
+    background-color: #ddd; /* Achtergrondkleur bij hover */
+}
+
+/* Specifieke kleuren per link */
+.submenu li:nth-child(1) a:hover {
+    color: blue; /* Eerste link */
+}
+
+.submenu li:nth-child(2) a:hover {
+    color: purple; /* Tweede link */
+}
+
+.submenu li:nth-child(3) a:hover {
+    color: brown; /* Derde link */
+}
+
+.submenu li:nth-child(4) a:hover {
+    color: white; /* Vierde link */
+}
+
+.submenu li:nth-child(5) a:hover {
+    color: red; /* Correct kleur voor de vijfde link */
+}
+
+.submenu li:nth-child(6) a:hover {
+    color: green; /* Kleur voor de zesde link */
+}
+
+.imgervaring {
+    display: flex; /* Gebruik flexbox voor lay-out */
+    justify-content: center; /* Centreer de inhoud */
+    gap: 20px; /* Ruimte tussen afbeeldingen en tekst */
+    text-align: center; /* Centreer tekst */
+}
+
+#teksttemper
+{
+    margin-bottom: 50px;
+}
+
+
+.imgervaring img {
+    width: 70px; /* Breedte van de afbeeldingen */
+    height: 80px; /* Hoogte van de afbeeldingen */
+    border-radius: 50%; /* Maak de afbeeldingen rond */
+}
+
+.werk {
+    display: flex; /* Gebruik flexbox voor lay-out */
+    justify-content: center; /* Centreer de inhoud */
+    gap: 20px; /* Ruimte tussen afbeeldingen en tekst */
+    text-align: center; /* Centreer tekst */
+}
+
+.werk img {
+    width: 70px; /* Breedte van de afbeeldingen */
+    height: 70px; /* Hoogte van de afbeeldingen */
+}
+
+#mainportf {
+    display: block; /* Standaard block-weergave */
+    margin-left: auto; /* Centreer horizontaal */
+    margin-right: auto;
+}
+
+/* Responsieve stijlen voor schermen van minimaal 600px breed */
+@media only screen and (min-width: 600px) {
+  
+
+    .imgervaring {
+        display: flex; /* Gebruik flexbox voor lay-out */
+        justify-content: center; /* Centreer de inhoud */
+        gap: 50px; /* Grotere ruimte tussen afbeeldingen */
+        text-align: center;
+    }
+
+    .imgervaring img {
+        width: 250px; /* Grotere breedte van de afbeeldingen */
+        height: 200px; /* Grotere hoogte van de afbeeldingen */
+        border-radius: 50%; /* Maak de afbeeldingen rond */
+    }
+
+    .werk img {
+        width: 20px; /* Kleinere breedte van de afbeeldingen */
+        height: 15px; /* Kleinere hoogte van de afbeeldingen */
+        padding-bottom: 10px; /* Ruimte tussen afbeelding en tekst */
+    }
+}
+
+/* Opmaak voor portfolio.html */
+#mainportf p, h2, h3 {
+    text-align: center; /* Centreer de tekst */
+}
+
+.portfhoofdregel {
+    text-align: center; /* Centreer de hoofdregel */
+}
+
+figcaption {
+    text-align: center; /* Centreer de bijschriften */
+    padding-top: 5px; /* Ruimte boven de bijschriften */
+}
+
+.opdrachten img {
+    width: 250px; /* Stel de breedte van de afbeeldingen in */
+    height: 100px; /* Stel de hoogte van de afbeeldingen in */
+    display: block; /* Zorg dat de afbeelding als block wordt weergegeven */
+    margin-left: auto; /* Centreer de afbeelding */
+    margin-right: auto;
+}
+
+/* Opmaak voor hobby.html */
+.hobby {
+    display: inline; /* Laat hobby-items inline weergeven */
+}
+
+.hobby img {
+    width: 150px; /* Stel de breedte van de afbeeldingen in */
+    height: 100px; /* Stel de hoogte van de afbeeldingen in */
+    display: block; /* Zorg dat de afbeelding als block wordt weergegeven */
+    margin-left: auto; /* Centreer de afbeelding */
+    margin-right: auto;
+}
+
+/* Stijlen voor resultaten.html */
+/* Basisstijl voor mobiele weergave */
+
+/* Sectie voor resultaten */
+#punten {
+    display: flex;
+    flex-direction: column; /* Stapel de inhoud verticaal */
+    margin: 20px auto;
+    width: 90%; /* Maak de sectie kleiner dan 100% */
+    border: 2px solid #333; /* Rand rond de sectie */
+    padding: 10px; /* Verminder de padding voor compactere weergave */
+    background-color: #f9f9f9; /* Lichte achtergrondkleur */
+    border-radius: 8px; /* Afgeronde hoeken */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Schaduw voor diepte */
+}
+
+#vakkenLijst li, 
+#huiswerkLijst li, 
+#projectLijst li {
+    padding: 5px; /* Verminder de padding voor compacter weergeven */
+    margin: 5px 0; /* Ruimte tussen lijstitems */
+    border: 1px solid #ccc; /* Rand rond de lijstitems */
+    list-style-type: none; /* Verwijder opsommingstekens */
+    background-color: #fff; /* Witte achtergrond voor lijstitems */
+    border-radius: 4px; /* Afgeronde hoeken voor lijstitems */
+    font-size: 12px; /* Kleinere tekst voor een nettere uitstraling */
+}
+
+
+/* Stijlen voor knoppen */
+button {
+    margin: 15px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    display: block;
+    width: 150px; /* Zorg ervoor dat de knop niet te breed is op mobiel */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsieve stijlen voor grotere schermen (bijv. tablets en desktop) */
+
+
+@media only screen and (min-width: 600px) {
+    body
+    {
+        height: 100%; /* Stel de hoogte van de body in */
+        width: 100%; /* Zorg dat de body 100% breed is */
+    }
+    #punten {
+        width: 25%;
+        
+    }
+   
+
+    #vakkenLijst li, 
+    #huiswerkLijst li, 
+    #projectLijst li {
+        font-size: 16px; /* Nog grotere tekst voor desktop */
+    }
+
+    button {
+        width: 200px; /* Maak de knop smaller voor desktop */
+    }
+    header
+    {
+        height: 80px;
+    }
+}
+
+/*
+   De CSS-eigenschap 'position' bepaalt waar een element op de pagina komt te staan.
+   Er zijn verschillende soorten posities:
+
+   - static: Dit is de standaard. Het element blijft op zijn normale plek staan.
+   - relative: Het element blijft op zijn plek, maar je kunt het een beetje verplaatsen.
+   - absolute: Het element wordt losgemaakt van zijn plek en gepositioneerd 
+               ten opzichte van een ander element (meestal de container).
+   - fixed: Het element blijft op een vaste plek staan op het scherm, ook als je scrolt.
+   - sticky: Het element blijft eerst op zijn normale plek, maar "plakt" vast 
+             als je scrollt (zoals bij een menu dat blijft hangen).
+*/

@@ -1,0 +1,110 @@
+
+/* Autheur: Amine el Arras
+     datum:21-1-2025
+      stylepagina voor indeling*/
+
+/* font-family instellen */
+
+@font-face {
+    font-family: 'istokweb';
+    src: url('../fonts/IstokWeb-Bold.ttf');
+    
+}
+
+@font-face {
+    font-family: 'kufam';
+    src: url('../fonts/Kufam-VariableFont_wght.ttf');
+    
+}
+
+/* Algemene instellingen voor de body */
+body {
+    background-color: rgba(68, 68, 68, 1); /* Donkergrijze achtergrondkleur */
+    margin: 0; /* Verwijder standaardmarges van de body */
+    height: 100%; /* Vul de volledige hoogte van het scherm */
+    width: 100%; /* Vul de volledige breedte van het scherm */
+    font-family: "istokweb";   
+}
+
+
+
+
+/* Header sectie */
+header {
+    position: relative; /* Element blijft op zijn plek en kan dienen als referentiepunt */
+    background-color: rgba(33, 43, 65, 1); /* Donkerblauwe achtergrondkleur */
+    height: 6vh; /* Standaard hoogte van de header */
+    width: 100%; /* Zorgt ervoor dat de header de volledige breedte inneemt */
+    display: flex; /* Flexbox gebruikt om elementen in de header te positioneren */
+    align-items: center; /* Verticale uitlijning van de items */
+    font-family: 'kufam'; /* Gebruik Kufam-lettertype voor de tekst */  
+}
+
+/* Logo in de header */
+#logo {
+    width: 40px; /* Breedte van het logo */
+    height: auto; /* Automatische hoogte in verhouding tot de breedte */
+}
+
+/* Navigatielijst (onordelijke lijst) in de header */
+ul {
+    display: flex; /* Gebruik Flexbox voor de lijstitems */
+    align-items: center; /* Verticaal uitlijnen van de items */
+    margin: 0; /* Verwijder standaardmarges van de lijst */
+    padding: 0; /* Verwijder standaardpadding van de lijst */
+    list-style: none; /* Verwijder standaard opsommingstekens */
+}
+
+/* Stijlen voor lijstitems */
+li {
+    font-size: 13px; /* Standaard lettergrootte voor de tekst */
+}
+
+/* Links in de lijstitems */
+li a {
+    color: gainsboro; /* Lichte grijze tekstkleur voor betere leesbaarheid */
+    text-decoration: none; /* Verwijder onderstreping van links */
+    padding: 5px; /* Ruimte rond de tekst voor betere klikbaarheid */
+}
+
+/* Footer sectie */
+footer {
+    position: fixed; /* Maak de footer vast aan de onderkant van het scherm */
+    height: 4vh; /* Stel de hoogte van de footer in */
+    bottom: 0; /* Positioneer de footer direct onderaan */
+    width: 100%; /* Zorg dat de footer de volledige breedte inneemt */
+    background-color: rgba(8, 8, 87, 1); /* Donkerblauwe achtergrondkleur */
+    color: white; /* Witte tekstkleur */
+    font-family: 'kufam'; /* Gebruik Kufam-lettertype voor de tekst */ 
+}
+
+/* Knoppen */
+button {
+    bottom: 100px; /* Stel positie van de knop in vanaf de onderkant */
+}
+
+/* Footer-tekst */
+.tekstfooter {
+    text-align: center; /* Centreer de tekst horizontaal */
+    margin: 0 auto; /* Centreer het element binnen de container */
+    font-size: 10px; /* Kleine lettergrootte voor de tekst */
+    height: auto; /* Automatische hoogte op basis van de inhoud */
+    display: flex; /* Gebruik Flexbox voor lay-out */
+    gap: 15px; /* Ruimte tussen elementen in de Flexbox */
+    margin-bottom: 10px; /* Voeg ruimte onderaan toe */
+    align-items: center; /* Verticaal uitlijnen van de items */
+}
+
+
+/*
+   De CSS-eigenschap 'position' bepaalt waar een element op de pagina komt te staan.
+   Er zijn verschillende soorten posities:
+
+   - static: Dit is de standaard. Het element blijft op zijn normale plek staan.
+   - relative: Het element blijft op zijn plek, maar je kunt het een beetje verplaatsen.
+   - absolute: Het element wordt losgemaakt van zijn plek en gepositioneerd 
+               ten opzichte van een ander element (meestal de container).
+   - fixed: Het element blijft op een vaste plek staan op het scherm, ook als je scrolt.
+   - sticky: Het element blijft eerst op zijn normale plek, maar "plakt" vast 
+             als je scrollt (zoals bij een menu dat blijft hangen).
+*/

@@ -1,0 +1,73 @@
+body{
+    background-color: rgba(68, 68, 68, 1);
+    height: 100vh;
+   margin: 0;
+}
+
+header ul{
+    background-color: rgba(33, 43, 65, 1);
+    margin: 0; /* Verwijdert standaardmarge van de ul */
+  
+    height: 50px;
+    list-style: none;
+    
+}
+
+li{
+    float: left;
+    padding-top: 10px;
+    padding: 10px;
+/* 
+   text-decoration: none; */
+}
+
+
+img{
+  
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    
+}
+
+
+footer
+{
+          position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 5vh;
+        text-align: center;
+        background-color: rgba(8, 8, 87, 1);
+        color: white; /* Maak de tekst wit zodat het zichtbaar is */
+        
+        
+}
+
+
+/* Zorg ervoor dat de lijstitems een nette uitstraling hebben */
+#vakkenLijst li, 
+#huiswerkLijst li, 
+#projectLijst li {
+    padding: 5px;
+    border: 2px solid #333; /* Buitenste rand */
+    list-style-type: none;
+    background-color: #f4f4f4; /* Achtergrondkleur voor zichtbaarheid */
+}
+
+/* #punten container voor een nette lay-out */
+#punten {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 55%;
+    border: 2px solid #333; /* Buitenste rand */
+    padding: 10px;
+}
+
+ main h2
+ {
+    text-align: center;
+ }

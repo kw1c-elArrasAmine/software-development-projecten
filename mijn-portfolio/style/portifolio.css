@@ -1,0 +1,22 @@
+body{
+    background-color: rgba(68, 68, 68, 1);
+    height: 100vh;
+   margin: 0;
+}
+
+ul{
+    background-color: rgba(33, 43, 65, 1);
+    margin: 0; /* Verwijdert standaardmarge van de ul */
+  
+    height: 50px;
+    list-style: none;
+    
+}
+
+li{
+    float: left;
+    padding-top: 10px;
+    padding: 10px;
+
+   text-decoration: none;
+}
