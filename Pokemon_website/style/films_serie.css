@@ -1,0 +1,105 @@
+/* font toevoegen */
+@font-face 
+{
+  font-family: poke;
+  src: url(../fonts/Pokemon\ Solid.ttf);
+}
+
+
+/* coptext */
+ul+h1
+{
+  font-family:poke;
+  color: yellow;
+  -webkit-text-stroke: 1px rgb(66, 103, 170);
+  text-align: center;
+  font-size: 45px;
+  margin-top: 30px;
+}
+
+
+/* voorwoord */
+h1+h2 {
+  font-family:poke;
+  color: yellow;
+  -webkit-text-stroke: 1px rgb(66, 103, 170);
+  text-align: center;
+}
+
+
+/* header */
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f9f2f2;
+  height: 100px;
+}  
+li 
+{
+  float: left;
+}  
+li a 
+{
+  display: block;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  padding: 40px 40px;
+  text-decoration: none;
+}
+*
+{
+  margin: 0;
+}
+img
+{
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+a:hover
+{
+  text-decoration: underline;
+}
+
+
+/* photos van films en series */
+div+div img
+{
+  width: 200px;
+  height: 200px;
+}
+
+
+/* films */
+div.films 
+{
+  margin: auto;
+  width: 80%;
+  border: 15px solid green;
+  text-align: center;
+  justify-content: space-around; /* Verdeel de items gelijkmatig over de ruimte */
+  flex-wrap: wrap; /* Zorg ervoor dat de items naar een nieuwe regel gaan als er te veel zijn voor één regel */
+  text-align: center; /* Centreert de tekst in elke kolom */
+  display: flex;
+}
+
+h3 {
+  width: 30%;
+  justify-content: space-around;
+
+}
+/* series */
+div.series 
+{
+  margin: auto;
+  width: 80%;
+  border: 15px solid green;
+  justify-content: space-around; /* Verdeel de items gelijkmatig over de ruimte */
+  flex-wrap: wrap; /* Zorg ervoor dat de items naar een nieuwe regel gaan als er te veel zijn voor één regel */
+  text-align: center; /* Centreert de tekst in elke kolom */
+  display: flex;
+}
+

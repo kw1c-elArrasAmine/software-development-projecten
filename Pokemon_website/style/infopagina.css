@@ -1,0 +1,257 @@
+@font-face
+{
+  font-family: pokemon;
+  src: url('../fonts/Pokemon Solid.ttf');
+}
+
+body
+{
+  height: 100vh;
+  background-color: rgb(201, 186, 186);  
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f9f2f2;
+  height: 100px;
+  width: auto;
+}
+  
+li
+{
+  float: left;
+  text-decoration: none;
+}
+  
+li a
+{
+  display: block;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  padding: 40px 40px;
+  text-decoration: none;
+}
+
+*
+{
+  margin: 0;
+}
+
+ul img
+{
+  width: 100px;
+  height: auto;
+  float: left;
+}
+
+.home
+{
+  display: grid;
+  justify-content: center;
+}
+
+.logonav
+{
+  width: 100px;
+}
+
+.titelwatzijn
+{
+  font-family: pokemon;
+ 
+  text-align: center;
+  font-size: 20px;
+  clear: both;
+  -webkit-text-stroke: 1px rgb(66, 103, 170);
+  color: yellow;
+}
+
+.titel
+{
+  font-family: pokemon;
+  text-align: center;
+  font-size: 20px;
+  -webkit-text-stroke: 1px rgb(66, 103, 170);
+  color: yellow;
+}
+
+.pokemonkaart
+{
+  float: right;
+  padding-right: 20px;
+}
+
+table, th, td 
+{
+  border: 1px solid;
+}
+
+#facts
+{
+  float: right;
+  height: 500px;
+  padding-right: 10px;
+}
+
+#hallofffame
+{
+  margin: auto;
+  width: 50%;
+  border: 10px solid rgb(204, 23, 231);
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around; /* Verdeel de items gelijkmatig over de ruimte */
+  flex-wrap: wrap; /* Zorg ervoor dat de items naar een nieuwe regel gaan als er te veel zijn voor één regel */
+  text-align: center; /* Centreert de tekst in elke kolom */
+}
+
+#starter
+{
+  margin: auto;
+  max-width: fit-content;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around; /* Verdeel de items gelijkmatig over de ruimte */
+  flex-wrap: wrap; /* Zorg ervoor dat de items naar een nieuwe regel gaan als er te veel zijn voor één regel */
+  text-align: center; /* Centreert de tekst in elke kolom */
+}
+
+.imghallof
+{
+  width: 200px;
+}
+
+.tekstpokemon
+{
+  text-align: center;
+}
+
+#tekstfilmpje
+{
+  -webkit-text-stroke: 1px rgb(66, 103, 170);
+  color: yellow;
+}
+
+#tafelpokemon
+{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; /* Zorg dat de tabel relatief wordt gepositioneerd */
+  top: 0; /* Zorg dat de tabel bovenaan blijft */
+  z-index: 2; /* Zorg dat de tabel bovenop de afbeelding komt */
+  width: 80%; /* Instellen van een breedte voor de tabel zodat deze minder ruimte inneemt */
+}
+
+.imgtafel
+{
+  position: absolute; /* Absolute positionering zodat de afbeelding bovenop komt */
+  z-index: 1; /* Zorg ervoor dat de afbeelding onder de tabel blijft */
+  top: 50%; /* Plaats de afbeelding halverwege de hoogte van de tabel */
+  right: 80%; /* Plaats de afbeelding horizontaal richting het midden van de tabel */
+  transform: translate(-50%, -50%); /* Verplaats de afbeelding naar het midden van de container */
+  width: 200px; /* Pas de breedte van de afbeelding aan */
+}
+
+td
+{
+  color: rgb(20, 19, 19);
+}
+
+tr
+{
+  color: rgb(195, 46, 46);
+  background-color: black;
+}
+
+td
+{
+  color: white;
+}
+
+.legendpok
+{
+  font-family: pokemon;
+  margin-right: 250px;
+  -webkit-text-stroke: 1px rgb(66, 103, 170);
+  color: yellow;
+}
+
+.starterpok
+{
+  font-family: pokemon;
+  padding-right: 250px;
+  -webkit-text-stroke: 1px rgb(66, 103, 170);
+  color: yellow;
+}
+
+.legendp
+{
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 20px;
+  max-width: 500px;
+  max-height: 400px;
+  padding: 10px; /* Optionele padding voor wat ruimte rondom de tekst */
+  padding-bottom: 50px;
+}
+
+.imgstarters
+{
+  width: 240px;
+  text-align: center;
+}
+
+.buttonpokem
+{
+  display: block;
+  margin: 0 auto;
+}
+
+#facts
+{
+  float: right;
+  margin-right: 110px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+#imgash
+{
+  float: left;
+ width: 250px;
+ padding-left: 10px;
+}
+
+#imgcharizard
+{
+  float: right; width: 250px;
+   padding-right: 25px;
+     margin-bottom: -250px;
+}
+
+#imgbidoof
+{
+  float: left;
+   width: 250px;
+    padding-right: 25px; 
+     margin-bottom: -250px;
+}
+
+.footer
+{
+  background-color: black;
+  height: 200px;
+}
