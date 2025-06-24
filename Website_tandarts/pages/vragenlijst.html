@@ -1,0 +1,107 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/vragenlijst.css">
+    <script src="../script/vragenlijst.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <head>
+
+        <img src="../img/logoheader.png" alt="" id="imgtop">
+       <nav>
+        <ul>
+        <li ><a href="../index.html">Homepagina</a></li>
+        <li><a href="vragenlijst.html">Vragenlijst</a></li>
+
+        </ul>
+
+       </nav>
+        
+    </head>   
+
+    
+
+<main>
+    <h1>Test je Tandgezondheid </h1>
+    <form id="tandForm">
+        <div class="vraag">
+            <p>Hoe vaak poets je je tanden per dag?</p>
+            <input type="radio" name="poetsen" value="slecht"> 0-1 keer<br>
+            <input type="radio" name="poetsen" value="goed"> 2 keer of meer<br>
+        </div>
+
+        <div class="vraag">
+            <p>Gebruik je flosdraad of ragers?</p>
+            <input type="radio" name="flossen" value="slecht"> Nee<br>
+            <input type="radio" name="flossen" value="goed"> Ja, dagelijks<br>
+        </div>
+
+        <div class="vraag">
+            <p>Heb je vaak last van bloedend tandvlees?</p>
+            <input type="radio" name="tandvlees" value="slecht"> Ja<br>
+            <input type="radio" name="tandvlees" value="goed"> Nee<br>
+        </div>
+
+        <div class="vraag">
+            <p>Hoeveel frisdrank of zoete drankjes drink je per dag?</p>
+            <input type="radio" name="drankjes" value="slecht"> Meer dan 2 glazen<br>
+            <input type="radio" name="drankjes" value="goed"> Minder dan 2 glazen<br>
+        </div>
+
+        <button type="button" onclick="Resultaatvragenlijst()">Bekijk resultaat</button>
+    </form>
+
+    <h2 id="resultaat"></h2>
+</main>
+<footer>
+    <div id="bovenkantftr">
+        <h2>We zien u graag snel in onze praktijk!</h2>
+        <div class="socials">
+            <figure><img src="../img/socials/facebook.png" alt="Facebook"></figure>
+            <figure><img src="../img/socials/linkedin.png" alt="LinkedIn"></figure>
+            <figure><img src="../img/socials/mail.png" alt="E-mail"></figure>
+        </div>
+    </div>
+
+    <div class="samenwerking">
+        <h2>Aangesloten bij</h2>
+        <div class="logos">
+            <figure><img src="../img/samenwerking.png" alt="Samenwerkingslogo’s"></figure>
+            <figcaption>Tandarts Den Bosch hanteert tarieven conform de richtingen van de  NZA. Echter wijken we wel af van deze maximale tarieven door bepaalde behandelingen goedkoper aan te bieden.</figcaption>
+        </div>
+    </div>
+
+    <div id="lijnfooter"></div>
+
+    <div class="footer-container">
+        <div class="footer-links">
+            <h3>Behandelingen</h3>
+            <a href="#">Periodiek mondonderzoek</a>
+            <a href="#">Ontstoken tandvlees</a>
+            <a href="#">Vullingen</a>
+            <a href="#">Facings</a>
+            <a href="#">Kronen, inlays en bruggen</a>
+        </div>
+
+        <div class="footer-links">
+            <h3>Meer behandelingen</h3>
+            <a href="#">Implantaten</a>
+            <a href="#">Protheses</a>
+            <a href="#">Wortelkanaalbehandelingen</a>
+            <a href="#">Tanden en kiezen trekken</a>
+            <a href="#">Cosmetische tandheelkunde</a>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© Tandarts Den Bosch 2020</p>
+        <p>De beste tandarts van Den Bosch e.o. met hoge kwaliteit voor een betaalbaar tarief!</p>
+    </div>
+</footer>
+
+</body>
+</html>

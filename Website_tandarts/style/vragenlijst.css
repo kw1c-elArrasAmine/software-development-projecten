@@ -1,0 +1,157 @@
+body
+{
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+
+
+}
+*
+{
+}
+
+
+ #imgtop
+{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+ 
+}
+nav
+{
+    border-bottom: 1px solid rgb(199, 194, 194); /* Zwarte lijn onder de afbeelding */
+    border-top: 1px solid rgb(199, 194, 194); /* Zwarte lijn onder de afbeelding */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centreert de lijst horizontaal */
+}
+
+li {
+    display: inline;
+    margin: 0 10px; /* Optioneel: Voegt ruimte tussen de items toe */
+}
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+/* Bovenste gedeelte met titel en socials */
+#bovenkantftr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#bovenkantftr h2 {
+    margin: 0;
+}
+
+.socials {
+    display: flex;
+    gap: 15px;
+}
+
+.socials figure img {
+    width: 30px;
+    height: auto;
+}
+
+/* Samenwerkingslogo's */
+.samenwerking {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.samenwerking .logos img {
+    width: 120px;
+    height: auto;
+}
+
+/* Footer links */
+.footer-container {
+    display: flex;
+    justify-content: space-between; /* Zorgt voor ruimte tussen de kolommen */
+    flex-wrap: wrap; /* Voorkomt overflow op kleinere schermen */
+    max-width: 800px; /* Beperkt de breedte voor nettere uitlijning */
+    margin: 0 auto;
+    text-align: left;
+}
+
+.footer-links {
+    flex: 1;
+    min-width: 300px; /* Zorgt ervoor dat kolommen niet te smal worden */
+}
+
+.footer-links h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.footer-links a {
+    display: block; /* Zet de links onder elkaar */
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.footer-links a:hover {
+    color: lightgray;
+}
+
+
+.logos figcaption
+{
+    max-width: 200px;
+    max-height: 50px;
+    float: right;
+}
+
+
+/* vragenlijst */
+/* Zorgt ervoor dat het hele formulier en de tekst in het midden van de pagina staan */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centreert de inhoud horizontaal */
+    justify-content: center; /* Centreert de inhoud verticaal als je een hoogte toevoegt */
+    height: 100vh; /* Zorgt ervoor dat het de volledige hoogte van het scherm gebruikt */
+    text-align: center; /* Centreert de tekst */
+}
+
+/* Stijl voor het formulier */
+form {
+    background-color: #f9f9f9; /* Zachte achtergrondkleur */
+    padding: 20px;
+    border-radius: 10px; /* Mooie afgeronde hoeken */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Schaduw voor een lichte 3D-look */
+    width: 50%; /* Formulier breder maken */
+    max-width: 500px; /* Maximale breedte */
+}
+
+/* Zorg ervoor dat de button en het resultaat gecentreerd zijn */
+button, #resultaat {
+    margin-top: 15px;
+}
+
+/* Optioneel: Stijl de radio-buttons mooier */
+.vraag {
+    margin-bottom: 15px;
+}

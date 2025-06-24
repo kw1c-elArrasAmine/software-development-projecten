@@ -1,0 +1,359 @@
+body
+{
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+
+
+}
+*
+{
+}
+
+
+ #imgtop
+{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+ 
+}
+nav
+{
+    border-bottom: 1px solid rgb(199, 194, 194); /* Zwarte lijn onder de afbeelding */
+    border-top: 1px solid rgb(199, 194, 194); /* Zwarte lijn onder de afbeelding */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centreert de lijst horizontaal */
+}
+
+li {
+    display: inline;
+    margin: 0 10px; /* Optioneel: Voegt ruimte tussen de items toe */
+}
+
+.lachmain
+{
+    background-image: url("../img/smile.jpg");
+    background-size: cover; /* Zorgt ervoor dat de afbeelding de hele div bedekt */
+    background-repeat: no-repeat; /* Geen herhaling van de afbeelding */
+    background-position: center; /* Centreert de afbeelding */
+    height: 400px;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.lachmain >h2> h3
+{
+    margin: 0;
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+    
+}
+.lachmain > p
+{
+    text-align: center;
+    color: white;
+}
+
+.container-lachmain
+{
+    text-align: center;
+}
+
+.lachmain button
+{
+    display: inline-block; /* Zet de knoppen naast elkaar */
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px; /* Optionele marge tussen de knoppen */
+}
+
+#button1 a, #button2 a {
+    color: black; /* Zet de tekstkleur op zwart */
+    text-decoration: none; /* Verwijder de onderstreping van de link */
+}
+
+/* Hover-effecten voor knop 1 */
+#button1:hover {
+    background-color: black; /* Verander de achtergrondkleur naar zwart bij hover */
+}
+
+#button1:hover a {
+    color: white; /* Verander de tekstkleur naar wit bij hover */
+}
+
+/* Standaard achtergrondkleur voor knop 2 */
+#button2 {
+    background-color: black; /* Maak de achtergrond van knop 2 zwart */
+}
+
+#button2 a {
+    color: white; /* Zet de tekstkleur op wit voor knop 2 */
+}
+
+main > h1
+{
+    color: green;
+    text-align: center;
+   
+}
+
+
+main > h2 {
+    color: gray;
+    margin-bottom: 50px;
+  text-align: center;
+}
+
+main > img
+{
+    width: 20%;
+    margin-left: 100px;
+    
+}
+
+#icon
+{
+   display: flex;
+   justify-content: center;
+}
+
+#natuur
+{
+    
+    background-image: url("../img/natuur.jpg");
+    background-size: cover; /* Zorgt ervoor dat de afbeelding de hele div bedekt */
+    background-position: center; /* Centreert de afbeelding */
+    background-repeat: no-repeat; /* Voorkomt herhaling */
+    
+    width: 100%; /* Maakt het de volledige breedte */
+    height: 30vh; /* 20% van de viewport height */
+    display: flex;
+    align-items: center; /* Centreert de tekst verticaal */
+    justify-content: center; /* Centreert de tekst horizontaal */
+    text-align: center;
+}
+
+#regel
+{
+    color: green;
+    text-align: center;
+    margin-top: 60px;
+}
+#lijn {
+    border: solid 2px rgb(199, 194, 194); /* Alleen de rand rondom */
+    
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+#tekst
+{
+    color: gray;
+    text-align: center;
+}
+#imglink
+{
+    width: 350px;
+    margin-left: 35%;
+}
+
+#foto
+{
+    background-image: url("../img/1472542758.jpg");
+    background-size: cover; /* Zorgt ervoor dat de afbeelding de hele div bedekt */
+    background-position: center; /* Centreert de afbeelding */
+    background-repeat: no-repeat; /* Voorkomt herhaling */
+    
+    width: 100%; /* Maakt het de volledige breedte */
+    height: 30vh; /* 20% van de viewport height */
+    display: flex;
+    align-items: center; /* Centreert de tekst verticaal */
+    justify-content: center; /* Centreert de tekst horizontaal */
+    text-align: center;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+/* Bovenste gedeelte met titel en socials */
+#bovenkantftr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#bovenkantftr h2 {
+    margin: 0;
+}
+
+.socials {
+    display: flex;
+    gap: 15px;
+}
+
+.socials figure img {
+    width: 30px;
+    height: auto;
+}
+
+/* Samenwerkingslogo's */
+.samenwerking {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.samenwerking .logos img {
+    width: 120px;
+    height: auto;
+}
+
+/* Footer links */
+.footer-container {
+    display: flex;
+    justify-content: space-between; /* Zorgt voor ruimte tussen de kolommen */
+    flex-wrap: wrap; /* Voorkomt overflow op kleinere schermen */
+    max-width: 800px; /* Beperkt de breedte voor nettere uitlijning */
+    margin: 0 auto;
+    text-align: left;
+}
+
+.footer-links {
+    flex: 1;
+    min-width: 300px; /* Zorgt ervoor dat kolommen niet te smal worden */
+}
+
+.footer-links h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.footer-links a {
+    display: block; /* Zet de links onder elkaar */
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.footer-links a:hover {
+    color: lightgray;
+}
+
+
+.logos figcaption
+{
+    max-width: 200px;
+    max-height: 50px;
+    float: right;
+}
+
+/* Mobile versie */
+@media screen and (max-width: 768px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* Zorgt ervoor dat afbeeldingen netjes schalen */
+    #imgtop {
+        width: 150px;
+    }
+
+    /* Menu aanpassing voor mobiel */
+    ul {
+        flex-direction: column; /* Zet de lijstitems onder elkaar */
+        text-align: center;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+
+    /* Lachsectie aanpassen */
+    .lachmain {
+        height: 250px;
+    }
+
+    .lachmain h2, .lachmain h3 {
+        font-size: 18px;
+    }
+
+    .lachmain p {
+        font-size: 14px;
+    }
+
+    /* Knoppen aanpassen voor mobiel */
+    .lachmain button {
+        display: block; /* Zet de knoppen onder elkaar */
+        width: 80%;
+        margin: 10px auto;
+    }
+    main
+    {
+        width: 100%;
+    }
+ 
+    footer 
+    {
+        width: 100%;
+    }
+    /* Afbeeldingen schalen */
+    main > img {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    /* Achtergrondafbeeldingen aanpassen */
+    #natuur, #foto {
+        height: 200px;
+       width: 530px;
+    }
+
+    /* Footer aanpassen */
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links {
+        min-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .socials {
+        justify-content: center;
+    }
+
+    .samenwerking {
+        text-align: center;
+    }
+    #imglink
+    {
+        display: none;
+    }
+}
