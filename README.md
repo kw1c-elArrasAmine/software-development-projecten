@@ -32,7 +32,7 @@ Een persoonlijke portfolio-site met informatie over wie ik ben, wat ik doe, en w
 Mijn naam is **Amine el Arras**.  
 Ik ben een eerstejaars student Software Development aan het Koning Willem I College. Ik werk graag aan websites en leer steeds meer over backend en frontend development.
 
-📧 E-mail: Amine el Arras
+📧 E-mail: amine.elarras@edu-kw1c.nl
 📞 Telefoon: 0624086207  
 
 ---
