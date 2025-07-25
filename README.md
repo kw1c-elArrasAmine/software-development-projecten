@@ -39,4 +39,4 @@ Ik ben een eerstejaars student Software Development aan het Koning Willem I Coll
 ---
 
 Bedankt voor het bekijken van mijn portfolio!  
-Neem gerust contact met me op als je vragen hebt of interesse hebt in een samenwerking.
+Neem gerust contact met me op als je vragen hebt of interesse hebt.
